@@ -6,5 +6,5 @@ import com.aspen.main.orm.Customer;
 
 public interface CustomerRepository extends JpaRepository<Customer, Long> {
 
-	
+	String findByPhoneNumber(String phoneNumber);
 }

@@ -1,50 +1,34 @@
 package com.aspen.main.orm;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
 public class Customer {
 	
-	private String CustomerID;
-	
-	private String firstName;
-	
-	private String lastName;
-	
-	private String street;
-	
-	private String city;
-	
-	private String state;
-	
-	private String zip;
-	
-	private String phoneNum;
-	
-	private String driverLicenseNo;
-	
-	private String skierType;
-	
-	private String snowboardStance;
-	
-	private String customStanceL;
-	
-	private String customStanceR;
-	
-	private String weight;
-	
-	private String height;
-	
-	private String age;
-	
-	private String numOfRentalDays;
-	
-	private String damageWaiver;
-	
-	private int snowboard;
-	
-	private int ski;
-	
-	private String bootSize;
-	
-	private String poles;
-	
-	private String rentalSize;
+	public String CustomerID;
+	public String firstName;
+	public String lastName;
+	public String street;
+	public String city;
+	public String state;
+	public String zip;
+	public String phoneNum;
+	public String driverLicenseNo;
+	public String skierType;
+	public String snowboardStance;
+	public int customStanceL;
+	public int customStanceR;
+	public int weight;
+	public int height;
+	public int age;
+	public int numOfRentalDays;
+	public int damageWaiver;
+	public int snowboard;
+	public int ski;
+	public double bootSize;
+	public String poles;
+	public String rentalSize;
+
 }

@@ -18,12 +18,7 @@ public class AspenApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		String sql = "INSERT INTO users (fullname, email, password) VALUES (?, ?, ?)";
-		int result = jdbcTemplate.update(sql, "Sterling", "sterlingarmstrong14@gmail.com", "sarmstrong");
 		
-		if(result > 0) {
-			 System.out.println("New row has been inserted.");
-		}
 	}
 
 }
